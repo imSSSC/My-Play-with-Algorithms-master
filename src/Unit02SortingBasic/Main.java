@@ -1,4 +1,4 @@
-package unit02;
+package Unit02SortingBasic;
 
 import java.util.Arrays;
 
@@ -16,9 +16,13 @@ public class Main {
 
         Integer[] arr1 = SortTestHelper.generateRandomArray(N, 0, N);
         Integer[] arr2 = Arrays.copyOf(arr1, arr1.length);
+        Integer[] arr3 = Arrays.copyOf(arr1, arr1.length);
+        Integer[] arr4 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("unit02.SelectionSort", arr1);
-        SortTestHelper.testSort("unit02.InsertionSort", arr2);
+        SortTestHelper.testSort("Unit02SortingBasic.BubbleSort", arr3);
+        SortTestHelper.testSort("Unit02SortingBasic.SelectionSort", arr1);
+        SortTestHelper.testSort("Unit02SortingBasic.InsertionSort", arr2);
+        SortTestHelper.testSort("Unit02SortingBasic.ShellSort", arr4);
 
         System.out.println();
 
@@ -28,9 +32,14 @@ public class Main {
 
         arr1 = SortTestHelper.generateRandomArray(N, 0, 3);
         arr2 = Arrays.copyOf(arr1, arr1.length);
+        arr3 = Arrays.copyOf(arr1, arr1.length);
+        arr4 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("unit02.SelectionSort", arr1);
-        SortTestHelper.testSort("unit02.InsertionSort", arr2);
+
+        SortTestHelper.testSort("Unit02SortingBasic.BubbleSort", arr3);
+        SortTestHelper.testSort("Unit02SortingBasic.SelectionSort", arr1);
+        SortTestHelper.testSort("Unit02SortingBasic.InsertionSort", arr2);
+        SortTestHelper.testSort("Unit02SortingBasic.ShellSort", arr4);
 
         System.out.println();
 
@@ -41,9 +50,13 @@ public class Main {
 
         arr1 = SortTestHelper.generateNearlyOrderedArray(N, swapTimes);
         arr2 = Arrays.copyOf(arr1, arr1.length);
+        arr3 = Arrays.copyOf(arr1, arr1.length);
+        arr4 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("unit02.SelectionSort", arr1);
-        SortTestHelper.testSort("unit02.InsertionSort", arr2);
+        SortTestHelper.testSort("Unit02SortingBasic.BubbleSort", arr3);
+        SortTestHelper.testSort("Unit02SortingBasic.SelectionSort", arr1);
+        SortTestHelper.testSort("Unit02SortingBasic.InsertionSort", arr2);
+        SortTestHelper.testSort("Unit02SortingBasic.ShellSort", arr4);
 
         return;
     }

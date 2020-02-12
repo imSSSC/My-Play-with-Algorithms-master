@@ -1,4 +1,4 @@
-package unit02;
+package Unit02SortingBasic;
 
 import java.lang.reflect.Method;
 
@@ -28,7 +28,7 @@ public class SortTestHelper {
 
         Integer[] arr = new Integer[n];
         for( int i = 0 ; i < n ; i ++ )
-            arr[i] = new Integer(i);
+            arr[i] = i;
 
         for( int i = 0 ; i < swapTimes ; i ++ ){
             int a = (int)(Math.random() * n);
@@ -44,13 +44,12 @@ public class SortTestHelper {
     // 打印arr数组的所有内容
     public static void printArray(Object[] arr) {
 
-        for (int i = 0; i < arr.length; i++){
-            System.out.print( arr[i] );
-            System.out.print( ' ' );
+        for (Object o : arr) {
+            System.out.print(o);
+            System.out.print(' ');
         }
-        System.out.println();
 
-        return;
+        System.out.println();
     }
 
     // 判断arr数组是否有序
