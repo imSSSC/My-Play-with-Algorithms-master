@@ -20,7 +20,7 @@ public class InsertionSort {
 
         assert l >= 0 && l <= r && r < arr.length;
 
-        for (int i = l + 1; i < r; i++) {
+        for (int i = l + 1; i <= r; i++) {
             Comparable e = arr[i];
             int j = i;
             for (; j > l && arr[j - 1].compareTo(e) > 0; j--) {
