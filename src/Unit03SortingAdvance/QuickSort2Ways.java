@@ -1,6 +1,6 @@
 package Unit03SortingAdvance;
 
-// 双路快排
+// 双路快排 (解决了大量重复元素.)
 public class QuickSort2Ways {
 
     public static void sort(Comparable[] arr) {
