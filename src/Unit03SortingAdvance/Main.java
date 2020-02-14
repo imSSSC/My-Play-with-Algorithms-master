@@ -25,8 +25,8 @@ public class Main {
         SortTestHelper.testSort("Unit03SortingAdvance.MergeSortBU", arr2);
         SortTestHelper.testSort("Unit03SortingAdvance.MergeSortO", arr3);
         SortTestHelper.testSort("Unit03SortingAdvance.MergeSortBUO", arr4);
-//        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort", arr5);
-//        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort2Ways", arr6);
+        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort", arr5);
+        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort2Ways", arr6);
 //        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort3Ways", arr7);
 
         System.out.println();
@@ -50,8 +50,8 @@ public class Main {
         SortTestHelper.testSort("Unit03SortingAdvance.MergeSortBU", arr2);
         SortTestHelper.testSort("Unit03SortingAdvance.MergeSortO", arr3);
         SortTestHelper.testSort("Unit03SortingAdvance.MergeSortBUO", arr4);
-//        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort", arr5);
-//        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort2Ways", arr6);
+        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort", arr5);
+        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort2Ways", arr6);
 //        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort3Ways", arr7);
 
         System.out.println();
@@ -73,8 +73,8 @@ public class Main {
         SortTestHelper.testSort("Unit03SortingAdvance.MergeSortO", arr3);
         SortTestHelper.testSort("Unit03SortingAdvance.MergeSortBUO", arr4);
         // 在包含大量重复元素的情况下, QuickSort会退化成O(n^2)算法, 在这里不做执行
-        //SortTestHelper.testSort("Unit03SortingAdvance.QuickSort", arr5);
-//        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort2Ways", arr6);
+//        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort", arr5);
+        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort2Ways", arr6);
 //        SortTestHelper.testSort("Unit03SortingAdvance.QuickSort3Ways", arr7);
 
 
