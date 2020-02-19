@@ -14,7 +14,7 @@ public class MergeSortBUO {
             InsertionSort.sort(arr, i, Math.min(i + 15, n - 1));
         }
 
-        // Merge Sort Bottom Up 无优化版本
+        // Merge Sort Bottom Up 优化版本
         for (int sz = 1; sz < n; sz *= 2) {
             for (int i = 0; i < n - sz; i += sz + sz) {
                 // 对于arr[mid] <= arr[mid+1]的情况,不进行merge
